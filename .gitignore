@@ -1,9 +1,21 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# Phoenix
+public/bundle.js
+public/bundle.js.map
+public/styles.css
+public/styles.css.map
+.idea/
+.env.test
+.env.development
+/src/actions/secrets.js
+/secret
+/secrets
+/config/secrets
+config/dev.js
 
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
 
 # testing
 /coverage
